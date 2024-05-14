@@ -146,9 +146,27 @@ position: relative;
 }
 .secImg video {
 position: relative;
-margin-top: 105px;
-margin-left: 86px;
-width: 20vw;
-
+margin-top: 93px;
+margin-left: 70px;
+width: 21vw;
+}
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+ section.first>div :nth-child(1){
+    font-size: 48px;
+    font-weight: 800;
+}
+section.first>div :nth-child(2){
+    font-size: 24px;
+    
 }
   
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
